@@ -1,1 +1,105 @@
----tba---
+commit 1bd4b400db1300ca76a31173dc24603c9c62a49b
+Author: kurkilmo <ilmo.kurki00gmail.com>
+Date:   Wed Nov 3 13:20:03 2021 +0200
+
+    file renames etc
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 0b135d0a6bd0a9a7a711b1da1b3c3bc614d5b14a
+Author: kurkilmo <ilmo.kurki00gmail.com>
+Date:   Wed Nov 3 13:16:38 2021 +0200
+
+    add files
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 1627a1daf5a78c7058107c16261ac840cc69f48e
+Author: kurkilmo <ilmo.kurki00gmail.com>
+Date:   Wed Nov 3 13:11:36 2021 +0200
+
+    eka & kolmas muutoksia
+
+ eka.txt    | 2 +-
+ kolmas.txt | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit b5e0049cd66aeffca6ba94e269f4b80d696c345f
+Author: kurkilmo <ilmo.kurki00gmail.com>
+Date:   Wed Nov 3 13:09:24 2021 +0200
+
+    poistelua
+
+ tiedosto.txt => eka.txt | 0
+ toinen.txt              | 1 -
+ 2 files changed, 1 deletion(-)
+
+commit 08e5f03c5d733515c53502506679ec3c8834400d
+Author: kurkilmo <ilmo.kurki00gmail.com>
+Date:   Wed Nov 3 13:06:43 2021 +0200
+
+    Muokattu tiedosto.txt
+
+ tiedosto.txt | 15 +--------------
+ 1 file changed, 1 insertion(+), 14 deletions(-)
+
+commit 88c0d70ec2a7f8b801513b9c97230a4a1d173c1c
+Author: kurkilmo <ilmo.kurki00gmail.com>
+Date:   Wed Nov 3 13:03:45 2021 +0200
+
+    Lisättiin tekstiä tiedosto.txt
+
+ tiedosto.txt | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit 454b23e957cefef66eb118b7393880f38260b2ab
+Author: kurkilmo <ilmo.kurki00gmail.com>
+Date:   Wed Nov 3 12:51:14 2021 +0200
+
+    Lisättiin stuff kansio ja jotain
+
+ stuff/jokin.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 4e653b6c82ddae585c5e9d5e0fa18cee65835bff
+Author: kurkilmo <ilmo.kurki00gmail.com>
+Date:   Wed Nov 3 12:50:35 2021 +0200
+
+    kolmas & toinen muutoksia
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 049e40ae61d42c7bc81fa690ec7e5ea14b438269
+Author: kurkilmo <ilmo.kurki00gmail.com>
+Date:   Wed Nov 3 12:49:43 2021 +0200
+
+    kolmas.txt lisätty
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 5bbc36a48da7cdde7a7be5dbccca8b4f6001f687
+Author: kurkilmo <ilmo.kurki00gmail.com>
+Date:   Wed Nov 3 12:39:26 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 245b1addf5044302dcf16b89b727e41fb33f55cc
+Author: kurkilmo <ilmo.kurki00gmail.com>
+Date:   Wed Nov 3 12:33:47 2021 +0200
+
+    Tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
