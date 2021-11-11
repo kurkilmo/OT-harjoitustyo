@@ -42,3 +42,12 @@ class Kassapaate:
             self.kassassa_rahaa += summa
         else:
             return
+
+    def kassassarahaa(self):
+        return self.kassassa_rahaa
+
+    def maukkaat_maara(self):
+        return self.maukkaat
+    
+    def edulliset_maara(self):
+        return self.edulliset
