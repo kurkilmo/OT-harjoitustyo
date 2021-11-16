@@ -2,7 +2,7 @@
 ## Sovelluksen tarkoitus
 Sovelluksen avulla käyttäjä voi lukea ja muokata erilaisten tiedostojen metadataa, eli esimerkiksi tietoa valokuvatiedoston kameran tiedoista tai äänitiedoston otsikosta tai kappaleen esittäjästä.
 ## Käyttöliittymäluonnos
-![](laskarit/viikko1/IMG_20211116_135243.jpg)
+![](https://github.com/kurkilmo/OT-harjoitustyo/blob/master/laskarit/viikko1/IMG_20211116_135243.jpg)
 - Käyttöliittymä näyttää tiedoston polun ja nimen, ja esim. kuvatiedostojen tapauksessa esikatselun kuvasta
 - Napit tiedostojen avaamiselle ja tallentamiselle
 - Lista avatun tiedoston metadatasta
