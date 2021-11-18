@@ -10,6 +10,8 @@ hachoir = "^3.1.2"
 invoke = "^1.6.0"
 
 [tool.poetry.dev-dependencies]
+coverage = "^6.1.2"
+pytest = "^6.2.5"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

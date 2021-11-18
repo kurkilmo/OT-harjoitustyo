@@ -1,4 +1,4 @@
-from domain.metadataTools import Metadata
+from data.metadataTools import Metadata
 
 
 def run():
