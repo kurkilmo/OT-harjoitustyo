@@ -7,6 +7,10 @@
 /.vscode/
 /.pytest_cache/
 /src/__pycache__/
-/src/domain/__pycache__/
+/src/data/__pycache__/
 /src/ui/__pycache__/
-/ormus.jpg
+/.coverage
+/htmlcov/
+/src/tests/__pycache__/
+/..gitignore.swp
+
