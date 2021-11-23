@@ -20,3 +20,14 @@ class Metadata_subprocess:
             mtd[split[0]] = split[1]
 
         return(mtd)
+
+    def setMetadata(self, file, tag, value):
+        args = f'-{tag}={value}'
+        output = subprocess.run([self.exe, args, file], stdout=subprocess.PIPE, stderr = subprocess.STDOUT)
+        output = str(output.stdout.decode())
+
+        success = True
+        if output.find("1 image files updated") == -1:
+            success = False
+        
+        return success
