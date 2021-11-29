@@ -1,8 +1,14 @@
-from ui.text_ui import run # pylint: disable=import-error
+from tkinter import Tk # pylint: disable=import-error
+from ui.ui import UI # pylint: disable=import-error
 
 
 def main():
-    run()
+    window = Tk()
+
+    ui = UI(window)
+    ui.start()
+
+    window.mainloop()
 
 
 if __name__ == "__main__":

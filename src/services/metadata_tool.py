@@ -24,6 +24,7 @@ class MetadataTool:
         return mtd
 
     def set_metadata(self, file, tag, value):
+        tag = str(tag).replace(" ", "")
         args = f'-{tag}={value}'
         success = True
         output = subprocess.run([self.exe, args, file],
