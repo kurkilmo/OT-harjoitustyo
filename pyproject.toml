@@ -6,7 +6,6 @@ authors = ["kurkilmo <ilmo.kurki00gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-hachoir = "^3.1.2"
 invoke = "^1.6.0"
 
 [tool.poetry.dev-dependencies]
