@@ -8,13 +8,13 @@ Sovelluksen avulla käyttäjä voi lukea ja muokata erilaisten tiedostojen metad
 - Lista avatun tiedoston metadatasta
   - Tiedot tekstikenttiä, joiden avulla muokkaus tapahtuu
 ## Toiminnallisuus
-- Käyttäjä voi lukea annetun tiedoston metadatan
+- Käyttäjä voi lukea annetun tiedoston metadatan (tehty)
   - Graafisessa käyttöliittymässä tiedosto valitaan käyttöjärjestelmän tiedostonhallinnan avulla, tekstikäyttöliittymässä antamalla komento ja tiedoston polku
   - Metadata näytetään käyttöliittymässä kahden sarakkeen listana
-- Käyttäjä voi muokata metadataa
-  - Muokatessa muutokset eivät vielä tallennu, vaan ne tallennetaan erikseen
+- Käyttäjä voi muokata metadataa (tehty osittain)
+  - Muokatessa muutokset eivät vielä tallennu, vaan ne tallennetaan erikseen (tehty)
   - Sovellus ei anna muokata tietoja, joiden muutokset voivat tehdä tiedoston lukukelvottomaksi tai muuten korruptoida tiedoston
     - Mahdollinen "Safe Mode", josta poistuessa myös muita tietoja voidaan muokata
-- Käyttäjä voi tallentaa muokatun tiedoston
+- Käyttäjä voi tallentaa muokatun tiedoston (tehty osittain)
   - Mahdollisuus tallentaa joko samaan tai uuteen tiedostoon (save / save as)
   - Tallennus käyttöjärjestelmän tiedostonhallinnan kautta (tekstikäyttöliittymässä komennolla ja tiedoston polulla)
