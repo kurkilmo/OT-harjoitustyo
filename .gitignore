@@ -7,7 +7,7 @@
 /.vscode/
 /.pytest_cache/
 /src/__pycache__/
-/src/data/__pycache__/
+/src/services/__pycache__/
 /src/ui/__pycache__/
 /.coverage
 /htmlcov/
