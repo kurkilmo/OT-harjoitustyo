@@ -10,6 +10,7 @@ class UI:
         self.metadata_list = None
         self.edited_metadata = {}
 
+
     def start(self):
         top_bar = ttk.Frame(
             master=self._root

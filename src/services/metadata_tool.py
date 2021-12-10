@@ -2,10 +2,20 @@ import subprocess
 
 
 class MetadataTool:
+    """Class for reading and writing a file's metadata.
+    """
     def __init__(self):
         self.exe = 'exiftool'
 
     def get_metadata(self, file):
+        """Read metadata from a file.
+
+        Args:
+            file: Path to desired file
+
+        Returns:
+            A dictionary containing metadata attributes as keys and values as values.
+        """
         process = subprocess.Popen([self.exe, file],
                                    stdout=subprocess.PIPE,
                                    stderr=subprocess.STDOUT)
@@ -24,6 +34,16 @@ class MetadataTool:
         return mtd
 
     def set_metadata(self, file, tag, value):
+        """Write metadata to a file.
+
+        Args:
+            file: Path to desired (existing) file.
+            tag: Metadata attribute to change
+            value: New value for attribute
+
+        Returns:
+            True, if writing was succesful and False if not.
+        """
         tag = str(tag).replace(" ", "")
         args = f'-{tag}={value}'
         success = True
