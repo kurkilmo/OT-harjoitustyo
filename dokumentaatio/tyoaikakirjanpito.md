@@ -6,5 +6,6 @@
 | 18.11.21   | ~3      | Ohjelmoinnin aloitus |
 | 23.11.21   | 1.5     | Toiminnallisuus metadatan kirjoittamiseksi |
 | 29.11.21   | 4       | Graafinen käyttöliittymä ja pylint |
+| 10.12.21   | 2.5     | Docstring, metadatan kirjoitettavuudesta kertovan tietokannan valmistelu |
 
-**Yhteensä noin 11 tuntia**
+**Yhteensä noin 13.5 tuntia**
