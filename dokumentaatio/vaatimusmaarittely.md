@@ -15,6 +15,6 @@ Sovelluksen avulla käyttäjä voi lukea ja muokata erilaisten tiedostojen metad
   - Muokatessa muutokset eivät vielä tallennu, vaan ne tallennetaan erikseen (tehty)
   - Sovellus ei anna muokata tietoja, joiden muutokset voivat tehdä tiedoston lukukelvottomaksi tai muuten korruptoida tiedoston
     - Mahdollinen "Safe Mode", josta poistuessa myös muita tietoja voidaan muokata
-- Käyttäjä voi tallentaa muokatun tiedoston (tehty osittain)
+- Käyttäjä voi tallentaa muokatun tiedoston (tehty osittain, tällä hetkellä tallennus vain samaan tiedostoon)
   - Mahdollisuus tallentaa joko samaan tai uuteen tiedostoon (save / save as)
   - Tallennus käyttöjärjestelmän tiedostonhallinnan kautta (tekstikäyttöliittymässä komennolla ja tiedoston polulla)
