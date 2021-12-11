@@ -1,10 +1,12 @@
 from tkinter import Tk, ttk, StringVar, filedialog # pylint: disable=import-error
 from services.metadata_tool import MetadataTool # pylint: disable=import-error
+from services.metadata_info import MetadataInfo # pylint: disable=import-error
 
 class UI:
     def __init__(self, root):
         self._root = root
         self.metadatatool = MetadataTool()
+        self.metadatainfo = MetadataInfo()
         self.filename = StringVar()
         self.metadata = None
         self.metadata_list = None
@@ -63,6 +65,9 @@ class UI:
         line = 0
 
         for key, item in self.metadata.items():
+            if not self.metadatainfo.check_writable(key):
+                continue
+
             self.edited_metadata[key] = StringVar()
             self.edited_metadata[key].set(item)
 
