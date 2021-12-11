@@ -7,5 +7,6 @@
 | 23.11.21   | 1.5     | Toiminnallisuus metadatan kirjoittamiseksi |
 | 29.11.21   | 4       | Graafinen käyttöliittymä ja pylint |
 | 10.12.21   | 2.5     | Docstring, metadatan kirjoitettavuudesta kertovan tietokannan valmistelu |
+| 11.12.21   | 2       | Toiminnallisuuden edistäminen |
 
-**Yhteensä noin 13.5 tuntia**
+**Yhteensä noin 15.5 tuntia**
