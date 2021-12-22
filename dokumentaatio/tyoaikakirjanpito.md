@@ -8,5 +8,6 @@
 | 29.11.21   | 4       | Graafinen käyttöliittymä ja pylint |
 | 10.12.21   | 2.5     | Docstring, metadatan kirjoitettavuudesta kertovan tietokannan valmistelu |
 | 11.12.21   | 2       | Toiminnallisuuden edistäminen |
+| 22.12.21   | 4       | Koodin viimeistely, dokumentaation päivitys |
 
-**Yhteensä noin 15.5 tuntia**
+**Yhteensä noin 19.5 tuntia**
