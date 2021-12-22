@@ -19,3 +19,9 @@ class TestMetadataInfo(unittest.TestCase):
 
     def test_type_returns_string(self):
         self.assertEqual(self.info.check_type("Make"), "string")
+
+    def test_writable_returns_true_on_unknown_attribute(self):
+        self.assertTrue(self.info.check_writable("oidhgofdahgj"))
+
+    def test_type_returns_string_on_unknown_attribute(self):
+        self.assertEqual(self.info.check_type("oisjfdoisahoijg"), "string")
