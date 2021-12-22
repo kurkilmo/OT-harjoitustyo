@@ -16,7 +16,7 @@ onko tietty metatieto kirjoitettavissa.
 ## Päätoiminnallisuus
 
 Sovellus etenee seuraavasti:  
-![](/dokumentaatio/images/sequence1.jpg)  
+![](/dokumentaatio/images/sequence2.jpg)  
 
 ### Tiedoston avaaminen ja metatietojen näyttäminen
 
