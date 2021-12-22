@@ -3,8 +3,11 @@ Sovelluksen avulla käyttäjä voi lukea ja muokata erilaisten tiedostojen metad
 ## Käyttöympäristö
 Sovellus toimii Linux-koneilla, joihin on asennettu Exiftool-ohjelmisto. (Exiftool-ohjelma löytyy valmiina laitoksen koneilta)
 ## Dokumentaatio
-[Vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)  
-[Työaikakirjanpito](dokumentaatio/tyoaikakirjanpito.md)
+[Käyttöohje](/dokumentaatio/kayttoohje.md)  
+[Vaatimusmäärittely](/dokumentaatio/vaatimusmaarittely.md)  
+[Työaikakirjanpito](/dokumentaatio/tyoaikakirjanpito.md)  
+[Arkkitehtuurikuvaus](/dokumentaatio/arkkitehtuuri.md)  
+
 
 ## Asennus
 Ohjelman riippuvuudet asennetaan komennolla `poetry install`
